@@ -107,31 +107,6 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 });
 
-
-/*
-//cart pop-up window
-document.addEventListener("DOMContentLoaded", function () {
-    const cartIcon = document.querySelector(".cart-icon");
-    const cartSidebar = document.querySelector(".cart-sidebar");
-    const closeCart = document.querySelector(".close-cart");
-
-    cartIcon.addEventListener("click", function () {
-        cartSidebar.classList.add("active");
-    });
-
-    closeCart.addEventListener("click", function () {
-        cartSidebar.classList.remove("active");
-    });
-
-    document.addEventListener("click", function (event) {
-        if (!cartSidebar.contains(event.target) && !cartIcon.contains(event.target)) {
-            cartSidebar.classList.remove("active");
-        }
-    });
-});
-*/
-
-
 //menu bar pop-up window
 document.addEventListener('DOMContentLoaded', function() {
     const menuBtn = document.querySelector(".menu-btn");
